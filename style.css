@@ -118,3 +118,43 @@ header nav .nav-links a:hover::after{
     transform: rotate(90deg);
     margin-bottom: 40px;
 }
+@media (width < 860px) {
+  .nav.links {
+    display: block;
+  }
+  .container {
+    padding: 0 20px;
+  
+  }
+  .nav-links {
+    position: fixed;
+    top: 0;
+    width: 260px;
+    height: 100%;
+    left: -100%;
+    padding: 50px 30px 30px;
+    flex-direction: column;
+    transition: all 0.5s ease;
+  }
+  .nav-links {
+    left: 0;
+  }
+  a {
+    color: #333;
+  }
+
+  
+  .social-links .btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .hero-img {
+    padding-top: 130px;
+  }
+  .hero-img {
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content: center;
+  }
+  
