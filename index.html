@@ -48,5 +48,12 @@
             <a href="https://github.com/mvckyprytna1"><i class="fa-brands fa-github"></i></a>
         </div>
     </div>
+    <script>
+      const header = document.querySelector("header");
+      const menuToggler = document.querySelectorAll("#menu_toggle");
+      menuToggler.forEach(toggler => {
+        toggler.addEventListener("click", () => header.classList.toggle("showMenu"));
+      });
+    </script>
 </body>
 </html>
